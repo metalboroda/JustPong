@@ -2,14 +2,18 @@ using UnityEngine;
 
 public class DoNotDestroySoundtrack : MonoBehaviour
 {
+    public static DoNotDestroySoundtrack instance = null;
+
     private void Awake()
     {
-        GameObject[] musicObject = GameObject.FindGameObjectsWithTag("Soundtrack");
-        if (musicObject.Length > 1)
+        if (instance != null)
         {
             Destroy(gameObject);
         }
-
-        DontDestroyOnLoad(gameObject);
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
     }
 }

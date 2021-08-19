@@ -1,24 +1,24 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class MobileMove : MonoBehaviour
+namespace Game
 {
-    private Rigidbody2D rb;
-    private float dirY;
-    public float moveSpeed = 8f;
-
-    private void Start()
+    public class MobileMove : MonoBehaviour
     {
-        rb = GetComponent<Rigidbody2D>();
-    }
+        private Rigidbody2D _rb;
+        private float _dirY;
+        public float moveSpeed = 8f;
 
-    private void Update()
-    {
-        dirY = CrossPlatformInputManager.GetAxis("Vertical") * moveSpeed;
-        // rb.velocity = new Vector2(0, dirx);
-        rb.AddForce(new Vector2(0, dirY));
+        private void Start()
+        {
+            _rb = GetComponent<Rigidbody2D>();
+        }
+
+        private void Update()
+        {
+            _dirY = CrossPlatformInputManager.GetAxis("Vertical") * moveSpeed;
+            // rb.velocity = new Vector2(0, dirx);
+            _rb.AddForce(new Vector2(0, _dirY));
+        }
     }
 }
