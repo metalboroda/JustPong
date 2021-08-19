@@ -9,6 +9,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="DoNotDestroySoundtrack.cs" t="Include" />
           <e p="Game" t="Include">
             <e p="Ball.cs" t="Include" />
             <e p="BounceSurface.cs" t="Include" />
@@ -24,6 +25,7 @@
           </e>
           <e p="TargetFrameRate.cs" t="Include" />
           <e p="UI" t="Include">
+            <e p="AudioVolumeController.cs" t="Include" />
             <e p="ButtonSceneManager.cs" t="Include" />
             <e p="UI" t="Include">
               <e p="GameScene" t="Include">
