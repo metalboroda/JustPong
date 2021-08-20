@@ -11,12 +11,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ButtonSceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/MobileMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/MobileMoveSecondPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/AudioVolumeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/MobileMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetFrameRate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UI/GameScene/PauseButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ButtonSceneManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -36,8 +36,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/MobileMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoNotDestroySoundtrack.cs" />
         <option value="$PROJECT_DIR$/Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/AudioVolumeController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Game/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/AudioVolumeController.cs" />
       </list>
     </option>
   </component>
@@ -86,6 +86,7 @@
       <workItem from="1629358711470" duration="13320000" />
       <workItem from="1629386963553" duration="1440000" />
       <workItem from="1629394569130" duration="3314000" />
+      <workItem from="1629451583362" duration="700000" />
     </task>
     <servers />
   </component>
